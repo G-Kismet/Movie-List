@@ -1,7 +1,8 @@
 class Movie {
-   constructor(title, productionTeam, releaseDate, synopsis, genre, accolades, rating){
+   constructor(title, director, actors, releaseDate, synopsis, genre, accolades, rating){
    this.title = title;
-   this.productionTeam = productionTeam;
+   this.director = director;
+   this.actors = actors;
    this.releaseDate = releaseDate;
    this.synopsis = synopsis;
    this.genre = genre;
