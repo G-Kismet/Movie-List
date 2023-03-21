@@ -1,4 +1,4 @@
-class movieTitle {
+class Movie {
    constructor(title, productionTeam, releaseDate, synopsis, genre, accolades, rating){
    this.title = title;
    this.productionTeam = productionTeam;
@@ -13,4 +13,4 @@ class movieTitle {
 
 
 
-export default movieTitle
+export default Movie
