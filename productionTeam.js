@@ -1,23 +1,23 @@
-class productionTeam {
-    constructor (firstName, lastName, occupation){
+class Director {
+    constructor(firstName, lastName, genre, bio) }{
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.genre = genre;
+    this.bio = bio;
+    }
+
+class Actors {
+    constructor(firstName, lastName, genre, bio) }{
         this.firstName = firstName;
         this.lastName = lastName;
-        this.occupation = occupation;
-    }
-    getFullName(){
-        return this.firstName + ' ' + this.lastName
-        }  
-
-    }
-    //director is an extention of the production team
-    class director extends productionTeam {
-        super(firstName, lastName, occupation)
-    }
-
-    class actors extends productionTeam {
-        super(firstName, lastName, occupation)
+        this.genre = genre;
+        this.bio = bio; 
     }
 
 
 
-export default productionTeam
+//Director: Darnell Martin
+//Cast: Halle Berry, Michael Ealy, Terrance Howard, Nicki Micheaux, Lorraine Toussaint, Ruby Dee
+//Rating: 6.4
+
+export default ProductionTeam
