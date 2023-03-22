@@ -1,8 +1,8 @@
 class Director {
-    constructor(firstName, lastName, genre, bio){
+    constructor(firstName, lastName, nationality, bio){
     this.firstName = firstName;
     this.lastName = lastName;
-    this.genre = genre;
+    this.nationality = nationality;
     this.bio = bio;
     }
 }
@@ -10,7 +10,7 @@ class Actors {
     constructor(firstName, lastName, genre, bio) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.genre = genre;
+        this.genre = this.genre;
         this.bio = bio; 
     }
 }

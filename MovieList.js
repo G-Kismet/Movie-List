@@ -10,6 +10,12 @@ addMovie(Movie) {
         return console.log('There is an error with your input')
     }
 }
+removeMovie(Movie){
+    this.Movie.pop(Movie)
+    return console.log(`${title} has been removed.`)
+}
+
+
 }
 
 
