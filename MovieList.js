@@ -12,7 +12,7 @@ addMovie(Movie) {
 }
 removeMovie(Movie){
     this.Movie.pop(Movie)
-    return console.log(`${Movie} has been removed.`)
+    return console.log(`Last movie has been removed.`)
 }
 
 

@@ -6,7 +6,7 @@ class Director {
     this.bio = bio;
     }
 }
-class Actors {
+class Actor {
     constructor(firstName, lastName, genre, bio) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -20,4 +20,4 @@ class Actors {
 //Cast: Halle Berry, Michael Ealy, Terrance Howard, Nicki Micheaux, Lorraine Toussaint, Ruby Dee
 
 
-export {Director, Actors}
+export {Director, Actor}

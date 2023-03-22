@@ -1,12 +1,13 @@
 import movieTitle from "./Movie.js";
-import {Director, Actors} from "./ProductionTeam.js";
+import {Director, Actor} from "./ProductionTeam.js";
 import MovieList from "./MovieList.js";
+import User from "./User.js";
 
 
 let DarnellMartin = new Director("Darnell", "Martin", "American", "African-Irish American woman television and film director, screenwriter, and film producer.")
 
 
-let LyricRoss = new Actors("Lyric", "Ross","various", "African-American voice actress and drama star. ")
+let LyricRoss = new Actor("Lyric", "Ross","various", "African-American voice actress and drama star. ")
 
 
 let TEWWG = new movieTitle('Their Eyes Were Watching God', 'n/a', "cast", "March 6, 2005", "synopsis?", "Book-adaption",
